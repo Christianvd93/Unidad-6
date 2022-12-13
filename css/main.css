@@ -1,0 +1,428 @@
+body{
+    display:flex;
+    align-items:center;
+    background: #2c3338;
+    font-family: cursive;
+    background-image: url("https://res.cloudinary.com/dhakkgvjc/image/upload/v1670920554/vntb_qefops.avif");
+    
+  }
+  #frm_login{
+    width:250px;
+    background: black;
+    color: deeppink;
+  }
+  #frm_login,#frm_registro{
+    border:1px solid deeppink;
+    border-radius:20px;
+    padding:10px;
+    margin:5px auto;
+  }
+   #btn_ir_a_registro{
+    color: white;
+  }
+  #btn_ir_a_registro:hover {
+    background:deeppink;
+    color: black;
+  }
+  #btn_enviar{
+    background: black;
+  }
+  #btn_enviar:hover{ 
+    background: deeppink;
+    color: black;
+    border-color: yellow;
+  }
+  #frm_registro{
+    background: black;
+    color: deeppink;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:600px;
+    
+  }
+  .primera_parte{
+    
+  }
+  .segunda_parte{
+    margin-left:20px;
+    padding-top:31px;
+  }
+  #btn_enviar_registrar{
+   margin-left:160px;
+    color: white;
+    margin-top:25px;
+  }
+  
+  #btn_enviar_registrar:hover{
+    background: deeppink;
+    color: black;
+    border-color: yellow;
+  
+  }
+  body,html{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+  }
+  #home{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background:blue;
+  }
+  #frm_login h5{
+    text-align:center;
+  }
+  
+  #frm_login div{
+    margin-top:20px;
+    font-size:12px;
+    text-align:center;
+  }
+  
+  .ocultar{
+    display:none !important;
+  }
+  nav{
+    text-align:right;
+    padding: 7px;
+  }
+  *{
+    margin: 0px;
+  }
+  #t1{
+    color: deeppink;
+    font-family: Sans-serif;
+  }
+  #st{
+    width: 110px;
+    height: 30px; 
+    margin-top: 3px;
+    margin-bottom: 50px;
+    }
+  #btn_cmp{
+
+    color: deeppink;
+    background: white;
+    font-size: 20px;
+    margin-top: 100px;
+
+  } 
+  #seccion1{
+
+    text-align: center;
+    border:1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: deeppink;
+    border-width: 3px;
+    font-size: 60px;
+    margin: 30px 690px;
+    }
+  #btn_cmp{
+
+    color: deepk;
+    bacgkround: white;
+    font-size: 20px;
+    margin-left: 47%;
+    margin-bottom: 50px;
+
+  }
+  #sub1{
+    font-size: 50px;
+  }
+  #seccion2{
+    color: deeppink;
+    background: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    margin-top:50px;
+    }
+  .img1{
+    width: 70%;
+    height: 700px;
+    margin-left: 300px;
+
+  }
+  #seccion3{
+    color: deeppink;
+    background: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+    border-width: 70px;
+
+
+  }
+  #seccion4{
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 600px;
+
+
+
+  }
+  .img2{
+    width: 70%;
+    height: 900px;
+    margin-left: 300px;
+
+  }
+
+  .gif{
+    position:fixed;
+    width: 75px;
+    height: 80px;
+    border-radius:40px;
+    left:20px;
+    bottom:100px;
+
+    }
+
+  #vid1{
+    margin-top: 20px;
+    margin-left: 300px;
+
+  }
+  #seccion4_5{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+    border-style: inset;
+    margin: 40px 690px;
+    border-color: deeppink;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 7px;
+  }
+  .sortable{
+    text-align: ;
+    margin: 0 auto;
+    color: deeppink;
+  }
+  .sr-only {
+    position: absolute;
+    top: -30em;
+  }
+
+  table.sortable td,
+  table.sortable th {
+    padding: 0.125em 0.25em;
+    width: 8em;
+  }
+
+  table.sortable th {
+    font-weight: bold;
+    border-bottom: thin solid #888;
+    position: relative;
+  }
+
+  table.sortable th.no-sort {
+    padding-top: 0.35em;
+  }
+
+  table.sortable th:nth-child(5) {
+    width: 10em;
+  }
+
+  table.sortable th button {
+    position: absolute;
+    padding: 4px;
+    margin: 1px;
+    font-size: 100%;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    display: inline;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+  }
+
+  table.sortable th button span {
+    position: absolute;
+    right: 4px;
+  }
+
+  table.sortable th[aria-sort="descending"] span::after {
+    content: "▼";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+  }
+
+  table.sortable th[aria-sort="ascending"] span::after {
+    content: "▲";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+  }
+
+  table.show-unsorted-icon th:not([aria-sort]) button span::after {
+    content: "♢";
+    color: currentcolor;
+    font-size: 100%;
+    position: relative;
+    top: -3px;
+    left: -4px;
+  }
+
+  table.sortable td.num {
+    text-align: right;
+  }
+
+  table.sortable tbody tr:nth-child(odd) {
+    background-color: gray;
+  }
+
+  table.sortable th button:focus,
+  table.sortable th button:hover {
+    padding: 2px;
+    border: 2px solid currentcolor;
+  }
+
+  table.sortable th button:focus span,
+  table.sortable th button:hover span {
+    right: 2px;
+  }
+
+  table.sortable th:not([aria-sort]) button:focus span::after,
+  table.sortable th:not([aria-sort]) button:hover span::after {
+    content: "▼";
+    color: dar;
+    font-size: 100%;
+    top: 0;
+  }
+
+  #seccion6{
+    text-align: left;
+    margin: 10px 700px;
+    font-size: 30px;
+    margin-top: 90px;
+  }
+
+
+
+  #seccion7{
+    border-style: none double none;
+    border-width: 15px;
+    text-align: left;
+    margin: 10px 700px;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+
+#seccion8{ 
+  background: black;
+}
+hr{
+    width: 50%;
+    border-color: deeppink;
+    padding: 0px;
+    margin-bottom: 60px;
+    margin-left: 25%;
+  
+ }
+#sub2{
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  
+}
+
+#ph1{ 
+   width: 28%;  
+   margin-top: 30px; 
+   margin-left: 400px;
+   margin-right: 12px;
+}
+#ph2{
+  width: 35%;
+  margin-right: 2px;
+}
+#ph3{
+  width: 30%;
+  margin-left: 400px;
+  margin-top: 0px;
+}
+#ph4{
+  width: 33%;
+  margin-left: 15px;
+  }
+  #ph5{
+    width: 33%;
+    margin-left: 400px;
+  }
+#ph6{
+  width:27%;
+  margin-left: 70px;
+  
+}
+.collapsible {
+  background: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 110px;
+  margin-top: 0px;
+}
+
+.active, .collapsible:hover {
+  background-color: deeppink;
+  color: white;
+  }
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+  background-color: #f1f1f1;
+}
+#line1{
+  width: 98%;
+  margin-top: 70px;
+  margin-left:0px;
+  margin-bottom:0px;
+  border-width: 20px;
+  
+}
+#btn_vlvr{
+  color: deeppink;
+  background: ;
+  font-size: 20px;
+  margin-left: 2%;
+  }
+#seccion9{ 
+  background: white;
+  margin-top: 0px;
+}
+#wbio{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  
+}
+#seccion9{
+  text-align: center;
+}  
